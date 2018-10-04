@@ -17,8 +17,7 @@ export default (pkg, { load }) => {
       'keywords',
       'homepage',
       'engines',
-      'dependencies',
-      'devDependencies'
+      'dependencies'
     ])
 
     // Copy files from nuxt package
@@ -32,8 +31,5 @@ export default (pkg, { load }) => {
 
     // Update package.json
     pkg.writePackage()
-
-    // Copy dist artifacts to nuxt
-    nuxt.copyFilesFrom(pkg, [ 'dist' ])
   })
 }
