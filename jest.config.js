@@ -2,8 +2,8 @@ module.exports = {
   testEnvironment: 'node',
   coverageDirectory: './coverage/',
   coveragePathIgnorePatterns: [
-    '<rootDir>/packages/nuxt-core/src/app/**',
-    '<rootDir>/packages/nuxt-core/src/builder/webpack/plugins/vue/**'
+    '<rootDir>/packages/nuxt-core/src/app/',
+    '<rootDir>/packages/nuxt-core/src/builder/webpack/plugins/vue/'
   ],
   setupTestFrameworkScriptFile: './test/setup',
   testPathIgnorePatterns: ['test/fixtures/.*/.*?/'],
