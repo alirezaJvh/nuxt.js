@@ -7,7 +7,7 @@ module.exports = {
   ],
   setupTestFrameworkScriptFile: './test/setup',
   testPathIgnorePatterns: ['test/fixtures/.*/.*?/'],
-  transformIgnorePatterns: ['/node_modules/'],
+  transformIgnorePatterns: ['<rootDir>/node_modules/'],
   moduleFileExtensions: ['js', 'mjs', 'json'],
   expand: true,
   forceExit: true
