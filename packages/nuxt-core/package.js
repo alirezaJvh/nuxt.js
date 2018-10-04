@@ -22,8 +22,7 @@ export default (pkg, { load }) => {
 
     // Copy files from nuxt package
     pkg.copyFilesFrom(nuxt, [
-      'LICENSE',
-      'yarn.lock'
+      'LICENSE'
     ])
 
     // Sort dependencies

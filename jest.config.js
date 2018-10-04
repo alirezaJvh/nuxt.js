@@ -1,9 +1,6 @@
 module.exports = {
   testEnvironment: 'node',
   coverageDirectory: './coverage/',
-  collectCoverageFrom: [
-    'packages/*/src/**/*.js'
-  ],
   coveragePathIgnorePatterns: [
     '<rootDir>/packages/nuxt-core/src/app/**',
     '<rootDir>/packages/nuxt-core/src/builder/webpack/plugins/vue/**'
